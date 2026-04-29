@@ -9,7 +9,8 @@ It does not download or repair data.
 ## Layout
 
 - `app/` contains screener code, configs, docs, tests, and universe lists
-- `workspace/` contains screener outputs, caches, and local runtime artifacts
+- `workspace/` is a symlink to the shared folder `../market-toolkit-workspace`
+- the shared folder contains screener outputs, caches, and local runtime artifacts
 
 ## Primary command
 
