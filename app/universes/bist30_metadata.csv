@@ -1,0 +1,31 @@
+ticker,name,exchange,sector,industry,country,currency,source
+AEFES.IS,ANADOLU EFES,BIST,,,TR,TRY,borsa_istanbul
+AKBNK.IS,AKBANK,BIST,,,TR,TRY,borsa_istanbul
+ASELS.IS,ASELSAN,BIST,,,TR,TRY,borsa_istanbul
+ASTOR.IS,ASTOR ENERJI,BIST,,,TR,TRY,borsa_istanbul
+BIMAS.IS,BIM MAGAZALAR,BIST,,,TR,TRY,borsa_istanbul
+DSTKF.IS,DESTEK FINANS FAKTORING,BIST,,,TR,TRY,borsa_istanbul
+EKGYO.IS,EMLAK KONUT GMYO,BIST,,,TR,TRY,borsa_istanbul
+ENKAI.IS,ENKA INSAAT,BIST,,,TR,TRY,borsa_istanbul
+EREGL.IS,EREGLI DEMIR CELIK,BIST,,,TR,TRY,borsa_istanbul
+FROTO.IS,FORD OTOSAN,BIST,,,TR,TRY,borsa_istanbul
+GARAN.IS,GARANTI BANKASI,BIST,,,TR,TRY,borsa_istanbul
+GUBRF.IS,GUBRE FABRIK.,BIST,,,TR,TRY,borsa_istanbul
+ISCTR.IS,IS BANKASI (C),BIST,,,TR,TRY,borsa_istanbul
+KCHOL.IS,KOC HOLDING,BIST,,,TR,TRY,borsa_istanbul
+KRDMD.IS,KARDEMIR (D),BIST,,,TR,TRY,borsa_istanbul
+MGROS.IS,MIGROS TICARET,BIST,,,TR,TRY,borsa_istanbul
+PETKM.IS,PETKIM,BIST,,,TR,TRY,borsa_istanbul
+PGSUS.IS,PEGASUS,BIST,,,TR,TRY,borsa_istanbul
+SAHOL.IS,SABANCI HOLDING,BIST,,,TR,TRY,borsa_istanbul
+SASA.IS,SASA POLYESTER,BIST,,,TR,TRY,borsa_istanbul
+SISE.IS,SISE CAM,BIST,,,TR,TRY,borsa_istanbul
+TAVHL.IS,TAV HAVALIMANLARI,BIST,,,TR,TRY,borsa_istanbul
+TCELL.IS,TURKCELL,BIST,,,TR,TRY,borsa_istanbul
+THYAO.IS,TURK HAVA YOLLARI,BIST,,,TR,TRY,borsa_istanbul
+TOASO.IS,TOFAS OTO. FAB.,BIST,,,TR,TRY,borsa_istanbul
+TRALT.IS,TURK ALTIN ISLETMELERI,BIST,,,TR,TRY,borsa_istanbul
+TTKOM.IS,TURK TELEKOM,BIST,,,TR,TRY,borsa_istanbul
+TUPRS.IS,TUPRAS,BIST,,,TR,TRY,borsa_istanbul
+ULKER.IS,ULKER BISKUVI,BIST,,,TR,TRY,borsa_istanbul
+YKBNK.IS,YAPI VE KREDI BANK.,BIST,,,TR,TRY,borsa_istanbul

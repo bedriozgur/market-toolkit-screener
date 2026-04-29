@@ -1,0 +1,6 @@
+# One symbol per line.
+# BIST symbols should keep the .IS suffix.
+# Add only symbols you intentionally want outside the six core universes.
+#
+# Examples:
+# XBAN.IS

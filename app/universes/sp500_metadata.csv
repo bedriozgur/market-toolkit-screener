@@ -1,0 +1,504 @@
+ticker,name,exchange,sector,industry,country,currency,source
+A,Agilent Technologies,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+AAPL,Apple Inc.,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+ABBV,AbbVie,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+ABNB,Airbnb,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+ABT,Abbott Laboratories,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+ACGL,Arch Capital Group,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+ACN,Accenture,USA,Information Technology,IT Consulting & Other Services,USA,USD,wikipedia_sp500
+ADBE,Adobe Inc.,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+ADI,Analog Devices,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+ADM,Archer Daniels Midland,USA,Consumer Staples,Agricultural Products & Services,USA,USD,wikipedia_sp500
+ADP,Automatic Data Processing,USA,Industrials,Human Resource & Employment Services,USA,USD,wikipedia_sp500
+ADSK,Autodesk,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+AEE,Ameren,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+AEP,American Electric Power,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+AES,AES Corporation,USA,Utilities,Independent Power Producers & Energy Traders,USA,USD,wikipedia_sp500
+AFL,Aflac,USA,Financials,Life & Health Insurance,USA,USD,wikipedia_sp500
+AIG,American International Group,USA,Financials,Multi-line Insurance,USA,USD,wikipedia_sp500
+AIZ,Assurant,USA,Financials,Multi-line Insurance,USA,USD,wikipedia_sp500
+AJG,Arthur J. Gallagher & Co.,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+AKAM,Akamai Technologies,USA,Information Technology,Internet Services & Infrastructure,USA,USD,wikipedia_sp500
+ALB,Albemarle Corporation,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+ALGN,Align Technology,USA,Health Care,Health Care Supplies,USA,USD,wikipedia_sp500
+ALL,Allstate,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+ALLE,Allegion,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+AMAT,Applied Materials,USA,Information Technology,Semiconductor Materials & Equipment,USA,USD,wikipedia_sp500
+AMCR,Amcor,USA,Materials,Paper & Plastic Packaging Products & Materials,USA,USD,wikipedia_sp500
+AMD,Advanced Micro Devices,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+AME,Ametek,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+AMGN,Amgen,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+AMP,Ameriprise Financial,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+AMT,American Tower,USA,Real Estate,Telecom Tower REITs,USA,USD,wikipedia_sp500
+AMZN,Amazon,USA,Consumer Discretionary,Broadline Retail,USA,USD,wikipedia_sp500
+ANET,Arista Networks,USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+AON,Aon plc,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+AOS,A. O. Smith,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+APA,APA Corporation,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+APD,Air Products,USA,Materials,Industrial Gases,USA,USD,wikipedia_sp500
+APH,Amphenol,USA,Information Technology,Electronic Components,USA,USD,wikipedia_sp500
+APO,Apollo Global Management,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+APP,AppLovin,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+APTV,Aptiv,USA,Consumer Discretionary,Automotive Parts & Equipment,USA,USD,wikipedia_sp500
+ARE,Alexandria Real Estate Equities,USA,Real Estate,Office REITs,USA,USD,wikipedia_sp500
+ARES,Ares Management,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+ATO,Atmos Energy,USA,Utilities,Gas Utilities,USA,USD,wikipedia_sp500
+AVB,AvalonBay Communities,USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+AVGO,Broadcom,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+AVY,Avery Dennison,USA,Materials,Paper & Plastic Packaging Products & Materials,USA,USD,wikipedia_sp500
+AWK,American Water Works,USA,Utilities,Water Utilities,USA,USD,wikipedia_sp500
+AXON,Axon Enterprise,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+AXP,American Express,USA,Financials,Consumer Finance,USA,USD,wikipedia_sp500
+AZO,AutoZone,USA,Consumer Discretionary,Automotive Retail,USA,USD,wikipedia_sp500
+BA,Boeing,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+BAC,Bank of America,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+BALL,Ball Corporation,USA,Materials,"Metal, Glass & Plastic Containers",USA,USD,wikipedia_sp500
+BAX,Baxter International,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+BBY,Best Buy,USA,Consumer Discretionary,Computer & Electronics Retail,USA,USD,wikipedia_sp500
+BDX,Becton Dickinson,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+BEN,Franklin Resources,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+BF.B,Brown–Forman,USA,Consumer Staples,Distillers & Vintners,USA,USD,wikipedia_sp500
+BG,Bunge Global,USA,Consumer Staples,Agricultural Products & Services,USA,USD,wikipedia_sp500
+BIIB,Biogen,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+BK,BNY Mellon,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+BKNG,Booking Holdings,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+BKR,Baker Hughes,USA,Energy,Oil & Gas Equipment & Services,USA,USD,wikipedia_sp500
+BLDR,Builders FirstSource,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+BLK,BlackRock,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+BMY,Bristol Myers Squibb,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+BR,Broadridge Financial Solutions,USA,Industrials,Data Processing & Outsourced Services,USA,USD,wikipedia_sp500
+BRK.B,Berkshire Hathaway,USA,Financials,Multi-Sector Holdings,USA,USD,wikipedia_sp500
+BRO,Brown & Brown,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+BSX,Boston Scientific,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+BX,Blackstone Inc.,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+BXP,"BXP, Inc.",USA,Real Estate,Office REITs,USA,USD,wikipedia_sp500
+C,Citigroup,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+CAG,Conagra Brands,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+CAH,Cardinal Health,USA,Health Care,Health Care Distributors,USA,USD,wikipedia_sp500
+CARR,Carrier Global,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+CAT,Caterpillar Inc.,USA,Industrials,Construction Machinery & Heavy Transportation Equipment,USA,USD,wikipedia_sp500
+CB,Chubb Limited,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+CBOE,Cboe Global Markets,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+CBRE,CBRE Group,USA,Real Estate,Real Estate Services,USA,USD,wikipedia_sp500
+CCI,Crown Castle,USA,Real Estate,Telecom Tower REITs,USA,USD,wikipedia_sp500
+CCL,Carnival,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+CDNS,Cadence Design Systems,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+CDW,CDW Corporation,USA,Information Technology,Technology Distributors,USA,USD,wikipedia_sp500
+CEG,Constellation Energy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+CF,CF Industries,USA,Materials,Fertilizers & Agricultural Chemicals,USA,USD,wikipedia_sp500
+CFG,Citizens Financial Group,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+CHD,Church & Dwight,USA,Consumer Staples,Household Products,USA,USD,wikipedia_sp500
+CHRW,C.H. Robinson,USA,Industrials,Air Freight & Logistics,USA,USD,wikipedia_sp500
+CHTR,Charter Communications,USA,Communication Services,Cable & Satellite,USA,USD,wikipedia_sp500
+CI,Cigna,USA,Health Care,Health Care Services,USA,USD,wikipedia_sp500
+CIEN,Ciena,USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+CINF,Cincinnati Financial,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+CL,Colgate-Palmolive,USA,Consumer Staples,Household Products,USA,USD,wikipedia_sp500
+CLX,Clorox,USA,Consumer Staples,Household Products,USA,USD,wikipedia_sp500
+CMCSA,Comcast,USA,Communication Services,Cable & Satellite,USA,USD,wikipedia_sp500
+CME,CME Group,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+CMG,Chipotle Mexican Grill,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+CMI,Cummins,USA,Industrials,Construction Machinery & Heavy Transportation Equipment,USA,USD,wikipedia_sp500
+CMS,CMS Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+CNC,Centene Corporation,USA,Health Care,Managed Health Care,USA,USD,wikipedia_sp500
+CNP,CenterPoint Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+COF,Capital One,USA,Financials,Consumer Finance,USA,USD,wikipedia_sp500
+COHR,Coherent Corp.,USA,Information Technology,Electronic Components,USA,USD,wikipedia_sp500
+COIN,Coinbase,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+COO,Cooper Companies (The),USA,Health Care,Health Care Supplies,USA,USD,wikipedia_sp500
+COP,ConocoPhillips,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+COR,Cencora,USA,Health Care,Health Care Distributors,USA,USD,wikipedia_sp500
+COST,Costco,USA,Consumer Staples,Consumer Staples Merchandise Retail,USA,USD,wikipedia_sp500
+CPAY,Corpay,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+CPB,Campbell's Company (The),USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+CPRT,Copart,USA,Industrials,Diversified Support Services,USA,USD,wikipedia_sp500
+CPT,Camden Property Trust,USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+CRH,CRH plc,USA,Materials,Construction Materials,USA,USD,wikipedia_sp500
+CRL,Charles River Laboratories,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+CRM,Salesforce,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+CRWD,CrowdStrike,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+CSCO,Cisco,USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+CSGP,CoStar Group,USA,Real Estate,Real Estate Services,USA,USD,wikipedia_sp500
+CSX,CSX Corporation,USA,Industrials,Rail Transportation,USA,USD,wikipedia_sp500
+CTAS,Cintas,USA,Industrials,Diversified Support Services,USA,USD,wikipedia_sp500
+CTRA,Coterra,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+CTSH,Cognizant,USA,Information Technology,IT Consulting & Other Services,USA,USD,wikipedia_sp500
+CTVA,Corteva,USA,Materials,Fertilizers & Agricultural Chemicals,USA,USD,wikipedia_sp500
+CVNA,Carvana,USA,Consumer Discretionary,Automotive Retail,USA,USD,wikipedia_sp500
+CVS,CVS Health,USA,Health Care,Health Care Services,USA,USD,wikipedia_sp500
+CVX,Chevron Corporation,USA,Energy,Integrated Oil & Gas,USA,USD,wikipedia_sp500
+D,Dominion Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+DAL,Delta Air Lines,USA,Industrials,Passenger Airlines,USA,USD,wikipedia_sp500
+DASH,DoorDash,USA,Consumer Discretionary,Specialized Consumer Services,USA,USD,wikipedia_sp500
+DD,DuPont,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+DDOG,Datadog,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+DE,Deere & Company,USA,Industrials,Agricultural & Farm Machinery,USA,USD,wikipedia_sp500
+DECK,Deckers Brands,USA,Consumer Discretionary,Footwear,USA,USD,wikipedia_sp500
+DELL,Dell Technologies,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+DG,Dollar General,USA,Consumer Staples,Consumer Staples Merchandise Retail,USA,USD,wikipedia_sp500
+DGX,Quest Diagnostics,USA,Health Care,Health Care Services,USA,USD,wikipedia_sp500
+DHI,D. R. Horton,USA,Consumer Discretionary,Homebuilding,USA,USD,wikipedia_sp500
+DHR,Danaher Corporation,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+DIS,Walt Disney Company (The),USA,Communication Services,Movies & Entertainment,USA,USD,wikipedia_sp500
+DLR,Digital Realty,USA,Real Estate,Data Center REITs,USA,USD,wikipedia_sp500
+DLTR,Dollar Tree,USA,Consumer Staples,Consumer Staples Merchandise Retail,USA,USD,wikipedia_sp500
+DOC,Healthpeak Properties,USA,Real Estate,Health Care REITs,USA,USD,wikipedia_sp500
+DOV,Dover Corporation,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+DOW,Dow Inc.,USA,Materials,Commodity Chemicals,USA,USD,wikipedia_sp500
+DPZ,Domino's,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+DRI,Darden Restaurants,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+DTE,DTE Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+DUK,Duke Energy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+DVA,DaVita,USA,Health Care,Health Care Services,USA,USD,wikipedia_sp500
+DVN,Devon Energy,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+DXCM,Dexcom,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+EA,Electronic Arts,USA,Communication Services,Interactive Home Entertainment,USA,USD,wikipedia_sp500
+EBAY,eBay Inc.,USA,Consumer Discretionary,Broadline Retail,USA,USD,wikipedia_sp500
+ECL,Ecolab,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+ED,Consolidated Edison,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+EFX,Equifax,USA,Industrials,Research & Consulting Services,USA,USD,wikipedia_sp500
+EG,Everest Group,USA,Financials,Reinsurance,USA,USD,wikipedia_sp500
+EIX,Edison International,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+EL,Estée Lauder Companies (The),USA,Consumer Staples,Personal Care Products,USA,USD,wikipedia_sp500
+ELV,Elevance Health,USA,Health Care,Managed Health Care,USA,USD,wikipedia_sp500
+EME,Emcor,USA,Industrials,Construction & Engineering,USA,USD,wikipedia_sp500
+EMR,Emerson Electric,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+EOG,EOG Resources,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+EPAM,EPAM Systems,USA,Information Technology,IT Consulting & Other Services,USA,USD,wikipedia_sp500
+EQIX,Equinix,USA,Real Estate,Data Center REITs,USA,USD,wikipedia_sp500
+EQR,Equity Residential,USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+EQT,EQT Corporation,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+ERIE,Erie Indemnity,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+ES,Eversource Energy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+ESS,Essex Property Trust,USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+ETN,Eaton Corporation,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+ETR,Entergy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+EVRG,Evergy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+EW,Edwards Lifesciences,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+EXC,Exelon,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+EXE,Expand Energy,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+EXPD,Expeditors International,USA,Industrials,Air Freight & Logistics,USA,USD,wikipedia_sp500
+EXPE,Expedia Group,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+EXR,Extra Space Storage,USA,Real Estate,Self-Storage REITs,USA,USD,wikipedia_sp500
+F,Ford Motor Company,USA,Consumer Discretionary,Automobile Manufacturers,USA,USD,wikipedia_sp500
+FANG,Diamondback Energy,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+FAST,Fastenal,USA,Industrials,Trading Companies & Distributors,USA,USD,wikipedia_sp500
+FCX,Freeport-McMoRan,USA,Materials,Copper,USA,USD,wikipedia_sp500
+FDS,FactSet,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+FDX,FedEx,USA,Industrials,Air Freight & Logistics,USA,USD,wikipedia_sp500
+FE,FirstEnergy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+FFIV,"F5, Inc.",USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+FICO,Fair Isaac,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+FIS,Fidelity National Information Services,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+FISV,Fiserv,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+FITB,Fifth Third Bancorp,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+FIX,Comfort Systems USA,USA,Industrials,Construction & Engineering,USA,USD,wikipedia_sp500
+FOX,Fox Corporation (Class B),USA,Communication Services,Broadcasting,USA,USD,wikipedia_sp500
+FOXA,Fox Corporation (Class A),USA,Communication Services,Broadcasting,USA,USD,wikipedia_sp500
+FRT,Federal Realty Investment Trust,USA,Real Estate,Retail REITs,USA,USD,wikipedia_sp500
+FSLR,First Solar,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+FTNT,Fortinet,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+FTV,Fortive,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+GD,General Dynamics,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+GDDY,GoDaddy,USA,Information Technology,Internet Services & Infrastructure,USA,USD,wikipedia_sp500
+GE,GE Aerospace,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+GEHC,GE HealthCare,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+GEN,Gen Digital,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+GEV,GE Vernova,USA,Industrials,Heavy Electrical Equipment,USA,USD,wikipedia_sp500
+GILD,Gilead Sciences,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+GIS,General Mills,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+GL,Globe Life,USA,Financials,Life & Health Insurance,USA,USD,wikipedia_sp500
+GLW,Corning Inc.,USA,Information Technology,Electronic Components,USA,USD,wikipedia_sp500
+GM,General Motors,USA,Consumer Discretionary,Automobile Manufacturers,USA,USD,wikipedia_sp500
+GNRC,Generac,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+GOOG,Alphabet Inc. (Class C),USA,Communication Services,Interactive Media & Services,USA,USD,wikipedia_sp500
+GOOGL,Alphabet Inc. (Class A),USA,Communication Services,Interactive Media & Services,USA,USD,wikipedia_sp500
+GPC,Genuine Parts Company,USA,Consumer Discretionary,Distributors,USA,USD,wikipedia_sp500
+GPN,Global Payments,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+GRMN,Garmin,USA,Consumer Discretionary,Consumer Electronics,USA,USD,wikipedia_sp500
+GS,Goldman Sachs,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+GWW,W. W. Grainger,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+HAL,Halliburton,USA,Energy,Oil & Gas Equipment & Services,USA,USD,wikipedia_sp500
+HAS,Hasbro,USA,Consumer Discretionary,Leisure Products,USA,USD,wikipedia_sp500
+HBAN,Huntington Bancshares,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+HCA,HCA Healthcare,USA,Health Care,Health Care Facilities,USA,USD,wikipedia_sp500
+HD,Home Depot (The),USA,Consumer Discretionary,Home Improvement Retail,USA,USD,wikipedia_sp500
+HIG,Hartford (The),USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+HII,Huntington Ingalls Industries,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+HLT,Hilton Worldwide,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+HOLX,Hologic,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+HON,Honeywell,USA,Industrials,Industrial Conglomerates,USA,USD,wikipedia_sp500
+HOOD,Robinhood Markets,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+HPE,Hewlett Packard Enterprise,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+HPQ,HP Inc.,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+HRL,Hormel Foods,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+HSIC,Henry Schein,USA,Health Care,Health Care Distributors,USA,USD,wikipedia_sp500
+HST,Host Hotels & Resorts,USA,Real Estate,Hotel & Resort REITs,USA,USD,wikipedia_sp500
+HSY,Hershey Company (The),USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+HUBB,Hubbell Incorporated,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+HUM,Humana,USA,Health Care,Managed Health Care,USA,USD,wikipedia_sp500
+HWM,Howmet Aerospace,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+IBKR,Interactive Brokers,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+IBM,IBM,USA,Information Technology,IT Consulting & Other Services,USA,USD,wikipedia_sp500
+ICE,Intercontinental Exchange,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+IDXX,Idexx Laboratories,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+IEX,IDEX Corporation,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+IFF,International Flavors & Fragrances,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+INCY,Incyte,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+INTC,Intel,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+INTU,Intuit,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+INVH,Invitation Homes,USA,Real Estate,Single-Family Residential REITs,USA,USD,wikipedia_sp500
+IP,International Paper,USA,Materials,Paper & Plastic Packaging Products & Materials,USA,USD,wikipedia_sp500
+IQV,IQVIA,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+IR,Ingersoll Rand,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+IRM,Iron Mountain,USA,Real Estate,Other Specialized REITs,USA,USD,wikipedia_sp500
+ISRG,Intuitive Surgical,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+IT,Gartner,USA,Information Technology,IT Consulting & Other Services,USA,USD,wikipedia_sp500
+ITW,Illinois Tool Works,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+IVZ,Invesco,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+J,Jacobs Solutions,USA,Industrials,Construction & Engineering,USA,USD,wikipedia_sp500
+JBHT,J.B. Hunt,USA,Industrials,Cargo Ground Transportation,USA,USD,wikipedia_sp500
+JBL,Jabil,USA,Information Technology,Electronic Manufacturing Services,USA,USD,wikipedia_sp500
+JCI,Johnson Controls,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+JKHY,Jack Henry & Associates,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+JNJ,Johnson & Johnson,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+JPM,JPMorgan Chase,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+KDP,Keurig Dr Pepper,USA,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,USA,USD,wikipedia_sp500
+KEY,KeyCorp,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+KEYS,Keysight Technologies,USA,Information Technology,Electronic Equipment & Instruments,USA,USD,wikipedia_sp500
+KHC,Kraft Heinz,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+KIM,Kimco Realty,USA,Real Estate,Retail REITs,USA,USD,wikipedia_sp500
+KKR,KKR & Co.,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+KLAC,KLA Corporation,USA,Information Technology,Semiconductor Materials & Equipment,USA,USD,wikipedia_sp500
+KMB,Kimberly-Clark,USA,Consumer Staples,Household Products,USA,USD,wikipedia_sp500
+KMI,Kinder Morgan,USA,Energy,Oil & Gas Storage & Transportation,USA,USD,wikipedia_sp500
+KO,Coca-Cola Company (The),USA,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,USA,USD,wikipedia_sp500
+KR,Kroger,USA,Consumer Staples,Food Retail,USA,USD,wikipedia_sp500
+KVUE,Kenvue,USA,Consumer Staples,Personal Care Products,USA,USD,wikipedia_sp500
+L,Loews Corporation,USA,Financials,Multi-line Insurance,USA,USD,wikipedia_sp500
+LDOS,Leidos,USA,Industrials,Diversified Support Services,USA,USD,wikipedia_sp500
+LEN,Lennar,USA,Consumer Discretionary,Homebuilding,USA,USD,wikipedia_sp500
+LH,Labcorp,USA,Health Care,Health Care Services,USA,USD,wikipedia_sp500
+LHX,L3Harris,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+LII,Lennox International,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+LIN,Linde plc,USA,Materials,Industrial Gases,USA,USD,wikipedia_sp500
+LITE,Lumentum,USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+LLY,Lilly (Eli),USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+LMT,Lockheed Martin,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+LNT,Alliant Energy,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+LOW,Lowe's,USA,Consumer Discretionary,Home Improvement Retail,USA,USD,wikipedia_sp500
+LRCX,Lam Research,USA,Information Technology,Semiconductor Materials & Equipment,USA,USD,wikipedia_sp500
+LULU,Lululemon Athletica,USA,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",USA,USD,wikipedia_sp500
+LUV,Southwest Airlines,USA,Industrials,Passenger Airlines,USA,USD,wikipedia_sp500
+LVS,Las Vegas Sands,USA,Consumer Discretionary,Casinos & Gaming,USA,USD,wikipedia_sp500
+LYB,LyondellBasell,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+LYV,Live Nation Entertainment,USA,Communication Services,Movies & Entertainment,USA,USD,wikipedia_sp500
+MA,Mastercard,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+MAA,Mid-America Apartment Communities,USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+MAR,Marriott International,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+MAS,Masco,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+MCD,McDonald's,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+MCHP,Microchip Technology,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+MCK,McKesson Corporation,USA,Health Care,Health Care Distributors,USA,USD,wikipedia_sp500
+MCO,Moody's Corporation,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+MDLZ,Mondelez International,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+MDT,Medtronic,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+MET,MetLife,USA,Financials,Life & Health Insurance,USA,USD,wikipedia_sp500
+META,Meta Platforms,USA,Communication Services,Interactive Media & Services,USA,USD,wikipedia_sp500
+MGM,MGM Resorts,USA,Consumer Discretionary,Casinos & Gaming,USA,USD,wikipedia_sp500
+MKC,McCormick & Company,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+MLM,Martin Marietta Materials,USA,Materials,Construction Materials,USA,USD,wikipedia_sp500
+MMM,3M,USA,Industrials,Industrial Conglomerates,USA,USD,wikipedia_sp500
+MNST,Monster Beverage,USA,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,USA,USD,wikipedia_sp500
+MO,Altria,USA,Consumer Staples,Tobacco,USA,USD,wikipedia_sp500
+MOS,Mosaic Company (The),USA,Materials,Fertilizers & Agricultural Chemicals,USA,USD,wikipedia_sp500
+MPC,Marathon Petroleum,USA,Energy,Oil & Gas Refining & Marketing,USA,USD,wikipedia_sp500
+MPWR,Monolithic Power Systems,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+MRK,Merck & Co.,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+MRNA,Moderna,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+MRSH,Marsh McLennan,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+MS,Morgan Stanley,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+MSCI,MSCI Inc.,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+MSFT,Microsoft,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+MSI,Motorola Solutions,USA,Information Technology,Communications Equipment,USA,USD,wikipedia_sp500
+MTB,M&T Bank,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+MTD,Mettler Toledo,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+MU,Micron Technology,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+NCLH,Norwegian Cruise Line Holdings,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+NDAQ,"Nasdaq, Inc.",USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+NDSN,Nordson Corporation,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+NEE,NextEra Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+NEM,Newmont,USA,Materials,Gold,USA,USD,wikipedia_sp500
+NFLX,Netflix,USA,Communication Services,Movies & Entertainment,USA,USD,wikipedia_sp500
+NI,NiSource,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+NKE,"Nike, Inc.",USA,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",USA,USD,wikipedia_sp500
+NOC,Northrop Grumman,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+NOW,ServiceNow,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+NRG,NRG Energy,USA,Utilities,Independent Power Producers & Energy Traders,USA,USD,wikipedia_sp500
+NSC,Norfolk Southern,USA,Industrials,Rail Transportation,USA,USD,wikipedia_sp500
+NTAP,NetApp,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+NTRS,Northern Trust,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+NUE,Nucor,USA,Materials,Steel,USA,USD,wikipedia_sp500
+NVDA,Nvidia,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+NVR,"NVR, Inc.",USA,Consumer Discretionary,Homebuilding,USA,USD,wikipedia_sp500
+NWS,News Corp (Class B),USA,Communication Services,Publishing,USA,USD,wikipedia_sp500
+NWSA,News Corp (Class A),USA,Communication Services,Publishing,USA,USD,wikipedia_sp500
+NXPI,NXP Semiconductors,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+O,Realty Income,USA,Real Estate,Retail REITs,USA,USD,wikipedia_sp500
+ODFL,Old Dominion,USA,Industrials,Cargo Ground Transportation,USA,USD,wikipedia_sp500
+OKE,Oneok,USA,Energy,Oil & Gas Storage & Transportation,USA,USD,wikipedia_sp500
+OMC,Omnicom Group,USA,Communication Services,Advertising,USA,USD,wikipedia_sp500
+ON,ON Semiconductor,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+ORCL,Oracle Corporation,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+ORLY,O’Reilly Automotive,USA,Consumer Discretionary,Automotive Retail,USA,USD,wikipedia_sp500
+OTIS,Otis Worldwide,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+OXY,Occidental Petroleum,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+PANW,Palo Alto Networks,USA,Information Technology,Systems Software,USA,USD,wikipedia_sp500
+PAYX,Paychex,USA,Industrials,Human Resource & Employment Services,USA,USD,wikipedia_sp500
+PCAR,Paccar,USA,Industrials,Construction Machinery & Heavy Transportation Equipment,USA,USD,wikipedia_sp500
+PCG,PG&E Corporation,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+PEG,Public Service Enterprise Group,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+PEP,PepsiCo,USA,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,USA,USD,wikipedia_sp500
+PFE,Pfizer,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+PFG,Principal Financial Group,USA,Financials,Life & Health Insurance,USA,USD,wikipedia_sp500
+PG,Procter & Gamble,USA,Consumer Staples,Personal Care Products,USA,USD,wikipedia_sp500
+PGR,Progressive Corporation,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+PH,Parker Hannifin,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+PHM,PulteGroup,USA,Consumer Discretionary,Homebuilding,USA,USD,wikipedia_sp500
+PKG,Packaging Corporation of America,USA,Materials,Paper & Plastic Packaging Products & Materials,USA,USD,wikipedia_sp500
+PLD,Prologis,USA,Real Estate,Industrial REITs,USA,USD,wikipedia_sp500
+PLTR,Palantir Technologies,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+PM,Philip Morris International,USA,Consumer Staples,Tobacco,USA,USD,wikipedia_sp500
+PNC,PNC Financial Services,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+PNR,Pentair,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+PNW,Pinnacle West Capital,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+PODD,Insulet Corporation,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+POOL,Pool Corporation,USA,Consumer Discretionary,Distributors,USA,USD,wikipedia_sp500
+PPG,PPG Industries,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+PPL,PPL Corporation,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+PRU,Prudential Financial,USA,Financials,Life & Health Insurance,USA,USD,wikipedia_sp500
+PSA,Public Storage,USA,Real Estate,Self-Storage REITs,USA,USD,wikipedia_sp500
+PSKY,Paramount Skydance Corporation,USA,Communication Services,Movies & Entertainment,USA,USD,wikipedia_sp500
+PSX,Phillips 66,USA,Energy,Oil & Gas Refining & Marketing,USA,USD,wikipedia_sp500
+PTC,PTC Inc.,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+PWR,Quanta Services,USA,Industrials,Construction & Engineering,USA,USD,wikipedia_sp500
+PYPL,PayPal,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+Q,Qnity Electronics,USA,Information Technology,Semiconductor Materials & Equipment,USA,USD,wikipedia_sp500
+QCOM,Qualcomm,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+RCL,Royal Caribbean Group,USA,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",USA,USD,wikipedia_sp500
+REG,Regency Centers,USA,Real Estate,Retail REITs,USA,USD,wikipedia_sp500
+REGN,Regeneron Pharmaceuticals,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+RF,Regions Financial Corporation,USA,Financials,Regional Banks,USA,USD,wikipedia_sp500
+RJF,Raymond James Financial,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+RL,Ralph Lauren Corporation,USA,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",USA,USD,wikipedia_sp500
+RMD,ResMed,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+ROK,Rockwell Automation,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+ROL,"Rollins, Inc.",USA,Industrials,Environmental & Facilities Services,USA,USD,wikipedia_sp500
+ROP,Roper Technologies,USA,Information Technology,Electronic Equipment & Instruments,USA,USD,wikipedia_sp500
+ROST,Ross Stores,USA,Consumer Discretionary,Apparel Retail,USA,USD,wikipedia_sp500
+RSG,Republic Services,USA,Industrials,Environmental & Facilities Services,USA,USD,wikipedia_sp500
+RTX,RTX Corporation,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+RVTY,Revvity,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+SATS,EchoStar,USA,Communication Services,Wireless Telecommunication Services,USA,USD,wikipedia_sp500
+SBAC,SBA Communications,USA,Real Estate,Telecom Tower REITs,USA,USD,wikipedia_sp500
+SBUX,Starbucks,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+SCHW,Charles Schwab Corporation,USA,Financials,Investment Banking & Brokerage,USA,USD,wikipedia_sp500
+SHW,Sherwin-Williams,USA,Materials,Specialty Chemicals,USA,USD,wikipedia_sp500
+SJM,J.M. Smucker Company (The),USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+SLB,Schlumberger,USA,Energy,Oil & Gas Equipment & Services,USA,USD,wikipedia_sp500
+SMCI,Supermicro,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+SNA,Snap-on,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+SNDK,Sandisk,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+SNPS,Synopsys,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+SO,Southern Company,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+SOLV,Solventum,USA,Health Care,Health Care Technology,USA,USD,wikipedia_sp500
+SPG,Simon Property Group,USA,Real Estate,Retail REITs,USA,USD,wikipedia_sp500
+SPGI,S&P Global,USA,Financials,Financial Exchanges & Data,USA,USD,wikipedia_sp500
+SRE,Sempra,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+STE,Steris,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+STLD,Steel Dynamics,USA,Materials,Steel,USA,USD,wikipedia_sp500
+STT,State Street Corporation,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+STX,Seagate Technology,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+STZ,Constellation Brands,USA,Consumer Staples,Distillers & Vintners,USA,USD,wikipedia_sp500
+SW,Smurfit Westrock,USA,Materials,Paper & Plastic Packaging Products & Materials,USA,USD,wikipedia_sp500
+SWK,Stanley Black & Decker,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+SWKS,Skyworks Solutions,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+SYF,Synchrony Financial,USA,Financials,Consumer Finance,USA,USD,wikipedia_sp500
+SYK,Stryker Corporation,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+SYY,Sysco,USA,Consumer Staples,Food Distributors,USA,USD,wikipedia_sp500
+T,AT&T,USA,Communication Services,Integrated Telecommunication Services,USA,USD,wikipedia_sp500
+TAP,Molson Coors Beverage Company,USA,Consumer Staples,Brewers,USA,USD,wikipedia_sp500
+TDG,TransDigm Group,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+TDY,Teledyne Technologies,USA,Information Technology,Electronic Equipment & Instruments,USA,USD,wikipedia_sp500
+TECH,Bio-Techne,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+TEL,TE Connectivity,USA,Information Technology,Electronic Manufacturing Services,USA,USD,wikipedia_sp500
+TER,Teradyne,USA,Information Technology,Semiconductor Materials & Equipment,USA,USD,wikipedia_sp500
+TFC,Truist Financial,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+TGT,Target Corporation,USA,Consumer Staples,Consumer Staples Merchandise Retail,USA,USD,wikipedia_sp500
+TJX,TJX Companies,USA,Consumer Discretionary,Apparel Retail,USA,USD,wikipedia_sp500
+TKO,TKO Group Holdings,USA,Communication Services,Movies & Entertainment,USA,USD,wikipedia_sp500
+TMO,Thermo Fisher Scientific,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+TMUS,T-Mobile US,USA,Communication Services,Wireless Telecommunication Services,USA,USD,wikipedia_sp500
+TPL,Texas Pacific Land Corporation,USA,Energy,Oil & Gas Exploration & Production,USA,USD,wikipedia_sp500
+TPR,"Tapestry, Inc.",USA,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",USA,USD,wikipedia_sp500
+TRGP,Targa Resources,USA,Energy,Oil & Gas Storage & Transportation,USA,USD,wikipedia_sp500
+TRMB,Trimble Inc.,USA,Information Technology,Electronic Equipment & Instruments,USA,USD,wikipedia_sp500
+TROW,T. Rowe Price,USA,Financials,Asset Management & Custody Banks,USA,USD,wikipedia_sp500
+TRV,Travelers Companies (The),USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+TSCO,Tractor Supply,USA,Consumer Discretionary,Other Specialty Retail,USA,USD,wikipedia_sp500
+TSLA,"Tesla, Inc.",USA,Consumer Discretionary,Automobile Manufacturers,USA,USD,wikipedia_sp500
+TSN,Tyson Foods,USA,Consumer Staples,Packaged Foods & Meats,USA,USD,wikipedia_sp500
+TT,Trane Technologies,USA,Industrials,Building Products,USA,USD,wikipedia_sp500
+TTD,Trade Desk (The),USA,Communication Services,Advertising,USA,USD,wikipedia_sp500
+TTWO,Take-Two Interactive,USA,Communication Services,Interactive Home Entertainment,USA,USD,wikipedia_sp500
+TXN,Texas Instruments,USA,Information Technology,Semiconductors,USA,USD,wikipedia_sp500
+TXT,Textron,USA,Industrials,Aerospace & Defense,USA,USD,wikipedia_sp500
+TYL,Tyler Technologies,USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+UAL,United Airlines Holdings,USA,Industrials,Passenger Airlines,USA,USD,wikipedia_sp500
+UBER,Uber,USA,Industrials,Passenger Ground Transportation,USA,USD,wikipedia_sp500
+UDR,"UDR, Inc.",USA,Real Estate,Multi-Family Residential REITs,USA,USD,wikipedia_sp500
+UHS,Universal Health Services,USA,Health Care,Health Care Facilities,USA,USD,wikipedia_sp500
+ULTA,Ulta Beauty,USA,Consumer Discretionary,Other Specialty Retail,USA,USD,wikipedia_sp500
+UNH,UnitedHealth Group,USA,Health Care,Managed Health Care,USA,USD,wikipedia_sp500
+UNP,Union Pacific Corporation,USA,Industrials,Rail Transportation,USA,USD,wikipedia_sp500
+UPS,United Parcel Service,USA,Industrials,Air Freight & Logistics,USA,USD,wikipedia_sp500
+URI,United Rentals,USA,Industrials,Trading Companies & Distributors,USA,USD,wikipedia_sp500
+USB,U.S. Bancorp,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+V,Visa Inc.,USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+VICI,Vici Properties,USA,Real Estate,Hotel & Resort REITs,USA,USD,wikipedia_sp500
+VLO,Valero Energy,USA,Energy,Oil & Gas Refining & Marketing,USA,USD,wikipedia_sp500
+VLTO,Veralto,USA,Industrials,Environmental & Facilities Services,USA,USD,wikipedia_sp500
+VMC,Vulcan Materials Company,USA,Materials,Construction Materials,USA,USD,wikipedia_sp500
+VRSK,Verisk Analytics,USA,Industrials,Research & Consulting Services,USA,USD,wikipedia_sp500
+VRSN,Verisign,USA,Information Technology,Internet Services & Infrastructure,USA,USD,wikipedia_sp500
+VRT,Vertiv,USA,Industrials,Electrical Components & Equipment,USA,USD,wikipedia_sp500
+VRTX,Vertex Pharmaceuticals,USA,Health Care,Biotechnology,USA,USD,wikipedia_sp500
+VST,Vistra Corp.,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+VTR,Ventas,USA,Real Estate,Health Care REITs,USA,USD,wikipedia_sp500
+VTRS,Viatris,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500
+VZ,Verizon,USA,Communication Services,Integrated Telecommunication Services,USA,USD,wikipedia_sp500
+WAB,Wabtec,USA,Industrials,Construction Machinery & Heavy Transportation Equipment,USA,USD,wikipedia_sp500
+WAT,Waters Corporation,USA,Health Care,Life Sciences Tools & Services,USA,USD,wikipedia_sp500
+WBD,Warner Bros. Discovery,USA,Communication Services,Broadcasting,USA,USD,wikipedia_sp500
+WDAY,"Workday, Inc.",USA,Information Technology,Application Software,USA,USD,wikipedia_sp500
+WDC,Western Digital,USA,Information Technology,"Technology Hardware, Storage & Peripherals",USA,USD,wikipedia_sp500
+WEC,WEC Energy Group,USA,Utilities,Electric Utilities,USA,USD,wikipedia_sp500
+WELL,Welltower,USA,Real Estate,Health Care REITs,USA,USD,wikipedia_sp500
+WFC,Wells Fargo,USA,Financials,Diversified Banks,USA,USD,wikipedia_sp500
+WM,Waste Management,USA,Industrials,Environmental & Facilities Services,USA,USD,wikipedia_sp500
+WMB,Williams Companies,USA,Energy,Oil & Gas Storage & Transportation,USA,USD,wikipedia_sp500
+WMT,Walmart,USA,Consumer Staples,Consumer Staples Merchandise Retail,USA,USD,wikipedia_sp500
+WRB,W. R. Berkley Corporation,USA,Financials,Property & Casualty Insurance,USA,USD,wikipedia_sp500
+WSM,"Williams-Sonoma, Inc.",USA,Consumer Discretionary,Homefurnishing Retail,USA,USD,wikipedia_sp500
+WST,West Pharmaceutical Services,USA,Health Care,Health Care Supplies,USA,USD,wikipedia_sp500
+WTW,Willis Towers Watson,USA,Financials,Insurance Brokers,USA,USD,wikipedia_sp500
+WY,Weyerhaeuser,USA,Real Estate,Timber REITs,USA,USD,wikipedia_sp500
+WYNN,Wynn Resorts,USA,Consumer Discretionary,Casinos & Gaming,USA,USD,wikipedia_sp500
+XEL,Xcel Energy,USA,Utilities,Multi-Utilities,USA,USD,wikipedia_sp500
+XOM,ExxonMobil,USA,Energy,Integrated Oil & Gas,USA,USD,wikipedia_sp500
+XYL,Xylem Inc.,USA,Industrials,Industrial Machinery & Supplies & Components,USA,USD,wikipedia_sp500
+XYZ,"Block, Inc.",USA,Financials,Transaction & Payment Processing Services,USA,USD,wikipedia_sp500
+YUM,Yum! Brands,USA,Consumer Discretionary,Restaurants,USA,USD,wikipedia_sp500
+ZBH,Zimmer Biomet,USA,Health Care,Health Care Equipment,USA,USD,wikipedia_sp500
+ZBRA,Zebra Technologies,USA,Information Technology,Electronic Equipment & Instruments,USA,USD,wikipedia_sp500
+ZTS,Zoetis,USA,Health Care,Pharmaceuticals,USA,USD,wikipedia_sp500

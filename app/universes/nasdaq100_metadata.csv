@@ -1,0 +1,102 @@
+ticker,name,exchange,sector,industry,country,currency,source
+AAPL,Apple Inc.,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ABNB,Airbnb,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+ADBE,Adobe Inc.,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ADI,Analog Devices,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ADP,Automatic Data Processing,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+ADSK,Autodesk,USA,,Technology,USA,USD,wikipedia_nasdaq100
+AEP,American Electric Power,USA,,Utilities,USA,USD,wikipedia_nasdaq100
+ALNY,Alnylam Pharmaceuticals,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+AMAT,Applied Materials,USA,,Technology,USA,USD,wikipedia_nasdaq100
+AMD,Advanced Micro Devices,USA,,Technology,USA,USD,wikipedia_nasdaq100
+AMGN,Amgen,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+AMZN,Amazon,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+APP,AppLovin,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ARM,Arm Holdings,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ASML,ASML Holding,USA,,Technology,USA,USD,wikipedia_nasdaq100
+AVGO,Broadcom,USA,,Technology,USA,USD,wikipedia_nasdaq100
+AXON,Axon Enterprise,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+BKNG,Booking Holdings,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+BKR,Baker Hughes,USA,,Energy,USA,USD,wikipedia_nasdaq100
+CCEP,Coca-Cola Europacific Partners,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+CDNS,Cadence Design Systems,USA,,Technology,USA,USD,wikipedia_nasdaq100
+CEG,Constellation Energy,USA,,Utilities,USA,USD,wikipedia_nasdaq100
+CHTR,Charter Communications,USA,,Telecommunications,USA,USD,wikipedia_nasdaq100
+CMCSA,Comcast,USA,,Telecommunications,USA,USD,wikipedia_nasdaq100
+COST,Costco,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+CPRT,Copart,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+CRWD,CrowdStrike,USA,,Technology,USA,USD,wikipedia_nasdaq100
+CSCO,Cisco,USA,,Telecommunications,USA,USD,wikipedia_nasdaq100
+CSGP,CoStar Group,USA,,Real Estate,USA,USD,wikipedia_nasdaq100
+CSX,CSX Corporation,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+CTAS,Cintas,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+CTSH,Cognizant,USA,,Technology,USA,USD,wikipedia_nasdaq100
+DASH,DoorDash,USA,,Technology,USA,USD,wikipedia_nasdaq100
+DDOG,Datadog,USA,,Technology,USA,USD,wikipedia_nasdaq100
+DXCM,DexCom,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+EA,Electronic Arts,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+EXC,Exelon,USA,,Utilities,USA,USD,wikipedia_nasdaq100
+FANG,Diamondback Energy,USA,,Energy,USA,USD,wikipedia_nasdaq100
+FAST,Fastenal,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+FER,Ferrovial,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+FTNT,Fortinet,USA,,Technology,USA,USD,wikipedia_nasdaq100
+GEHC,GE HealthCare,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+GILD,Gilead Sciences,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+GOOG,Alphabet Inc. (Class C),USA,,Technology,USA,USD,wikipedia_nasdaq100
+GOOGL,Alphabet Inc. (Class A),USA,,Technology,USA,USD,wikipedia_nasdaq100
+HON,Honeywell,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+IDXX,Idexx Laboratories,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+INSM,Insmed Incorporated,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+INTC,Intel,USA,,Technology,USA,USD,wikipedia_nasdaq100
+INTU,Intuit,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ISRG,Intuitive Surgical,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+KDP,Keurig Dr Pepper,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+KHC,Kraft Heinz,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+KLAC,KLA Corporation,USA,,Technology,USA,USD,wikipedia_nasdaq100
+LIN,Linde plc,USA,,Basic Materials,USA,USD,wikipedia_nasdaq100
+LRCX,Lam Research,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MAR,Marriott International,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+MCHP,Microchip Technology,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MDLZ,Mondelez International,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+MELI,Mercado Libre,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+META,Meta Platforms,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MNST,Monster Beverage,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+MPWR,Monolithic Power Systems,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MRVL,Marvell Technology,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MSFT,Microsoft,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MSTR,MicroStrategy,USA,,Technology,USA,USD,wikipedia_nasdaq100
+MU,Micron Technology,USA,,Technology,USA,USD,wikipedia_nasdaq100
+NFLX,"Netflix, Inc.",USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+NVDA,Nvidia,USA,,Technology,USA,USD,wikipedia_nasdaq100
+NXPI,NXP Semiconductors,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ODFL,Old Dominion Freight Line,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+ORLY,O'Reilly Automotive,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+PANW,Palo Alto Networks,USA,,Technology,USA,USD,wikipedia_nasdaq100
+PAYX,Paychex,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+PCAR,Paccar,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+PDD,PDD Holdings,USA,,Technology,USA,USD,wikipedia_nasdaq100
+PEP,PepsiCo,USA,,Consumer Staples,USA,USD,wikipedia_nasdaq100
+PLTR,Palantir Technologies,USA,,Technology,USA,USD,wikipedia_nasdaq100
+PYPL,PayPal,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+QCOM,Qualcomm,USA,,Technology,USA,USD,wikipedia_nasdaq100
+REGN,Regeneron Pharmaceuticals,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+ROP,Roper Technologies,USA,,Technology,USA,USD,wikipedia_nasdaq100
+ROST,Ross Stores,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+SBUX,Starbucks,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+SHOP,Shopify,USA,,Technology,USA,USD,wikipedia_nasdaq100
+SNPS,Synopsys,USA,,Technology,USA,USD,wikipedia_nasdaq100
+STX,Seagate Technology,USA,,Technology,USA,USD,wikipedia_nasdaq100
+TEAM,Atlassian,USA,,Technology,USA,USD,wikipedia_nasdaq100
+TMUS,T-Mobile US,USA,,Telecommunications,USA,USD,wikipedia_nasdaq100
+TRI,Thomson Reuters,USA,,Technology,USA,USD,wikipedia_nasdaq100
+TSLA,"Tesla, Inc.",USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+TTWO,Take-Two Interactive,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+TXN,Texas Instruments,USA,,Technology,USA,USD,wikipedia_nasdaq100
+VRSK,Verisk Analytics,USA,,Industrials,USA,USD,wikipedia_nasdaq100
+VRTX,Vertex Pharmaceuticals,USA,,Health Care,USA,USD,wikipedia_nasdaq100
+WBD,Warner Bros. Discovery,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+WDAY,"Workday, Inc.",USA,,Technology,USA,USD,wikipedia_nasdaq100
+WDC,Western Digital,USA,,Technology,USA,USD,wikipedia_nasdaq100
+WMT,Walmart,USA,,Consumer Discretionary,USA,USD,wikipedia_nasdaq100
+XEL,Xcel Energy,USA,,Utilities,USA,USD,wikipedia_nasdaq100
+ZS,Zscaler,USA,,Technology,USA,USD,wikipedia_nasdaq100

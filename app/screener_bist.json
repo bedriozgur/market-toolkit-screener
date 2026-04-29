@@ -1,0 +1,49 @@
+{
+  "liquidity": {
+    "min_price": 10,
+    "min_avg_volume_20": 50000,
+    "min_avg_dollar_volume_20": 20000000,
+    "min_history_bars": 250
+  },
+  "fresh_flip": {
+    "max_flip_age_bars": 5,
+    "min_rel_volume_20": 0.8,
+    "min_abs_roc_5": 0.5
+  },
+  "alphatrend": {
+    "multiplier": 1.0,
+    "fresh_flip_max_bars": 5,
+    "max_flip_age_bars": 7,
+    "min_rel_volume_20": 0.8,
+    "min_abs_roc_5": 0.25,
+    "require_price_confirmation": true
+  },
+  "technical_rank": {
+    "min_score": 60,
+    "require_trend_alignment": true,
+    "hard_filters": {
+      "missing_data_policy": "ignore",
+      "min_market_cap": null,
+      "max_earnings_days": 5,
+      "min_eps_growth_yoy": null,
+      "min_revenue_growth_yoy": null,
+      "max_debt_to_equity": null
+    },
+    "sentiment_boost": {
+      "enabled": false,
+      "min_short_interest_pct": 15.0
+    },
+    "benchmark_symbol_by_universe": {
+      "bist30": "XU030.IS",
+      "bist50": "XU050.IS",
+      "bist100": "XU100.IS",
+      "bist500": "XU500.IS"
+    },
+    "benchmark_source_by_universe": {
+      "bist30": "bist30",
+      "bist50": "bist50",
+      "bist100": "bist100",
+      "bist500": "bist500"
+    }
+  }
+}

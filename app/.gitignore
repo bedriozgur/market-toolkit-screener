@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+telegram.txt
+
+# Runtime data
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+!logs/pipeline/
+logs/pipeline/*
+!logs/pipeline/.gitkeep
+locks/*
+!locks/.gitkeep
+outputs/*
+!outputs/.gitkeep
+!outputs/screeners/
+outputs/screeners/*
+!outputs/screeners/.gitkeep
+
+# Builder caches
+cache/
+universes/_cache/
+
+# Generated validation / summary artifacts
+*_summary.json
+_validation_summary.json
+_validation_details.csv
+_failed_transient.txt
+_failed_permanent.txt
