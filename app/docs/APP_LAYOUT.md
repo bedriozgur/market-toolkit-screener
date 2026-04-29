@@ -1,8 +1,8 @@
 APP layout notes
 
 This app expects these relative symlinks inside the local project workspace:
-- data -> ../workspace/data
-- outputs -> ../workspace/outputs
+- data -> $MARKET_TOOLKIT_WORKSPACE/data
+- outputs -> $MARKET_TOOLKIT_WORKSPACE/outputs
 - logs -> ../workspace/logs
 - cache -> ../workspace/cache
 - locks -> ../workspace/locks

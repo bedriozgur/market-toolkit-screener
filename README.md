@@ -9,8 +9,9 @@ It does not download or repair data.
 ## Layout
 
 - `app/` contains screener code, configs, docs, tests, and universe lists
-- `workspace/` is a symlink to the shared folder `../market-toolkit-workspace`
-- the shared folder contains screener outputs, caches, and local runtime artifacts
+- `workspace/` is the local fallback workspace directory
+- set `MARKET_TOOLKIT_WORKSPACE` to the shared iCloud folder path to use an external workspace
+- the workspace contains screener outputs, caches, and local runtime artifacts
 
 ## Primary command
 

@@ -14,7 +14,7 @@ This directory contains the screener application layer.
 
 Runtime-generated files should not be written inside `app/`.
 
-Local OHLCV inputs are expected under `../workspace/data/`.
+Local OHLCV inputs are expected under the workspace path resolved from `MARKET_TOOLKIT_WORKSPACE` or the local fallback `workspace/`.
 
 ## Main entry points
 
@@ -26,4 +26,4 @@ Local OHLCV inputs are expected under `../workspace/data/`.
 
 - Universe definition files live under `app/universes/`
 - The repository root `README.md` explains the screener boundary
-- `workspace/README.md` explains the runtime artifact area
+- the workspace path is resolved by `MARKET_TOOLKIT_WORKSPACE`

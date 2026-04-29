@@ -10,8 +10,8 @@ It does not download or repair OHLCV data.
 
 ## Runtime layout
 
-- local data root: `workspace/data`
-- screener outputs: `workspace/outputs/screeners`
+- local data root: `MARKET_TOOLKIT_WORKSPACE/data`
+- screener outputs: `MARKET_TOOLKIT_WORKSPACE/outputs/screeners`
 
 ## Operating rule
 

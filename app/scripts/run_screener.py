@@ -6,12 +6,13 @@ import json
 import logging
 import sys
 from pathlib import Path
+from typing import Iterable
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 APP_ROOT = PROJECT_ROOT / "app"
 UNIVERSES_DIR = APP_ROOT / "universes"
-WORKSPACE_ROOT = PROJECT_ROOT / "workspace"
-from typing import Iterable
+
+from workspace_config import get_workspace_root
 
 from runtime_bootstrap import bootstrap_python
 
@@ -26,6 +27,7 @@ if str(ROOT) not in sys.path:
 from scripts.screener.engine import run_screeners
 
 RUNNER_VERSION = "3.4.1"
+WORKSPACE_ROOT = get_workspace_root()
 
 
 def configure_logging() -> None:

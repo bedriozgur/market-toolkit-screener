@@ -30,7 +30,7 @@ python3 app/scripts/run_screener.py \
 
 ## Outputs
 
-Written under `workspace/outputs/screeners/`:
+Written under `$MARKET_TOOLKIT_WORKSPACE/outputs/screeners/`:
 - screener CSV files
 - optional summary JSON
 
