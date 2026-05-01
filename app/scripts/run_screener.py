@@ -4,9 +4,12 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 APP_ROOT = PROJECT_ROOT / "app"
@@ -28,6 +31,7 @@ from scripts.screener.engine import run_screeners
 
 RUNNER_VERSION = "3.4.1"
 WORKSPACE_ROOT = get_workspace_root()
+TELEGRAM_LIMIT = 3800
 
 
 def configure_logging() -> None:
@@ -48,6 +52,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--top-n", type=int, default=30, help="Top N symbols.")
     parser.add_argument("--output-dir", default=str(WORKSPACE_ROOT / "outputs" / "screeners"), help="Output folder.")
     parser.add_argument("--summary-json", action="store_true", help="Write summary JSON.")
+    telegram_group = parser.add_mutually_exclusive_group()
+    telegram_group.add_argument("--telegram", dest="telegram", action="store_true", help="Send the top ranking to Telegram.")
+    telegram_group.add_argument("--no-telegram", dest="telegram", action="store_false", help="Disable Telegram notifications.")
+    parser.set_defaults(telegram=None)
+    parser.add_argument("--telegram-bot-token", default=os.getenv("TELEGRAM_BOT_TOKEN", ""), help="Telegram bot token.")
+    parser.add_argument("--telegram-chat-id", default=os.getenv("TELEGRAM_CHAT_ID", ""), help="Telegram chat id.")
+    parser.add_argument(
+        "--enrichment-refresh",
+        action="store_true",
+        help="Bypass cached Yahoo/TradingView enrichment and fetch fresh values.",
+    )
     return parser.parse_args()
 
 
@@ -95,12 +110,16 @@ def load_universe_metadata(universe: str) -> dict[str, dict]:
                 break
         if not peer_group:
             peer_group = universe
+        metadata = row.to_dict()
+        metadata.pop("ticker", None)
+        metadata["peer_group"] = peer_group
         out[symbol] = {
             "peer_group": peer_group,
             "sector": row.get("sector"),
             "industry": row.get("industry"),
             "country": row.get("country"),
             "exchange": row.get("exchange"),
+            **metadata,
         }
     return out
 
@@ -211,6 +230,67 @@ def load_benchmark_close_series(data_root: Path, source_universe: str | None, be
     return None
 
 
+def split_for_telegram(text: str, limit: int = TELEGRAM_LIMIT) -> list[str]:
+    chunks: list[str] = []
+    remaining = text.strip()
+    if not remaining:
+        return [""]
+
+    while remaining:
+        if len(remaining) <= limit:
+            chunks.append(remaining)
+            break
+        split_at = remaining.rfind("\n", 0, limit)
+        if split_at <= 0:
+            split_at = limit
+        chunks.append(remaining[:split_at].rstrip())
+        remaining = remaining[split_at:].lstrip("\n")
+    return chunks
+
+
+def send_telegram(bot_token: str, chat_id: str, text: str) -> None:
+    if not bot_token:
+        raise ValueError("Missing Telegram bot token.")
+    if not chat_id:
+        raise ValueError("Missing Telegram chat id.")
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+    payload = {"chat_id": chat_id, "text": text}
+    body = urlencode(payload).encode("utf-8")
+    req = Request(url, data=body, method="POST")
+    with urlopen(req, timeout=30) as resp:
+        _ = resp.read()
+
+
+def send_telegram_chunks(bot_token: str, chat_id: str, text: str) -> None:
+    chunks = split_for_telegram(text)
+    for chunk in chunks:
+        if chunk.strip():
+            send_telegram(bot_token, chat_id, chunk)
+
+
+def build_telegram_message(summary: dict, universe: str, interval: str, top_rows: list[dict[str, object]]) -> str:
+    lines = [
+        f"Universe: {universe}",
+        f"Interval: {interval}",
+        f"Top 10: {', '.join(summary.get('universe_rank_top10', []))}" if summary.get("universe_rank_top10") else "Top 10: none",
+        "",
+        "Ranked results:",
+    ]
+    for idx, row in enumerate(top_rows, start=1):
+        symbol = str(row.get("symbol", ""))
+        score = row.get("score", "")
+        tech = row.get("technical_score", "")
+        fresh = row.get("fresh_flip_score", "")
+        external = row.get("external_score", "")
+        flip = str(row.get("fresh_flip_signals", "")).strip()
+        suffix = f" | {flip}" if flip else ""
+        lines.append(f"{idx}. {symbol} score={score} tech={tech} flip={fresh} ext={external}{suffix}")
+    lines.append("")
+    lines.append(f"Loaded: {summary.get('symbols_loaded', 0)} | Liquidity: {summary.get('passed_liquidity', 0)}")
+    lines.append(f"Source rank rows: {summary.get('universe_rank_rows', 0)}")
+    return "\n".join(lines)
+
+
 def main() -> None:
     configure_logging()
     args = parse_args()
@@ -267,9 +347,11 @@ def main() -> None:
             symbols_load_failed_or_missing=load_failed_or_missing,
             benchmark_close=benchmark_close,
             symbol_metadata=symbol_metadata,
+            enrichment_refresh=args.enrichment_refresh,
         )
 
         summary = results["summary"]
+        top_rows = summary.get("universe_rank_top10_rows", []) or []
 
         for screener_name, eligible_count in summary["eligible_counts"].items():
             logging.info("%s eligible: %d", screener_name, eligible_count)
@@ -289,6 +371,14 @@ def main() -> None:
             logging.info("AlphaTrend truth rows: %d", truth_rows)
         elif state_rows is not None:
             logging.info("AlphaTrend state rows: %d", state_rows)
+
+        telegram_enabled = args.telegram if args.telegram is not None else bool(args.telegram_bot_token and args.telegram_chat_id)
+        if telegram_enabled and args.telegram_bot_token and args.telegram_chat_id:
+            message = build_telegram_message(summary, args.universe, interval, top_rows)
+            send_telegram_chunks(args.telegram_bot_token, args.telegram_chat_id, message)
+            logging.info("Telegram notification sent for %s %s.", args.universe, interval)
+        elif telegram_enabled and not (args.telegram_bot_token and args.telegram_chat_id):
+            logging.warning("Telegram enabled but TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID are not set.")
 
         logging.info("=== Interval end: %s ===", interval)
 

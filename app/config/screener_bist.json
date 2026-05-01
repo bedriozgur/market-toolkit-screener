@@ -45,5 +45,15 @@
       "bist100": "bist100",
       "bist500": "bist500"
     }
+  },
+  "market_data_enrichment": {
+    "enabled": false,
+    "cache_ttl_hours": 24,
+    "use_yfinance": true,
+    "use_tradingview_ta": false,
+    "tradingview_ta": {
+      "interval": "1d",
+      "timeout": 10
+    }
   }
 }

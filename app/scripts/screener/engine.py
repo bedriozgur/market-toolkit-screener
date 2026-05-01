@@ -16,7 +16,9 @@ from scripts.screener.fresh_flip import evaluate_fresh_flip
 from scripts.screener.pullback import evaluate_pullback
 from scripts.screener.trend_leader import evaluate_trend_leader
 from scripts.screener.breakout_candidate import evaluate_breakout_candidate
+from scripts.screener.market_data_enrichment import load_market_data_enrichment
 from scripts.screener.technical_rank import evaluate_technical_rank
+from scripts.screener.universe_rank import build_universe_rank_row
 
 
 def ensure_dir(path: Path) -> None:
@@ -71,6 +73,8 @@ def _make_base_row(symbol: str, universe: str, interval: str, last_row: pd.Serie
         "supertrend_line": last_row.get("supertrend_line"),
         "supertrend_trend": last_row.get("supertrend_trend"),
         "supertrend_bullish": last_row.get("supertrend_bullish"),
+        "supertrend_flip_age_bars": last_row.get("supertrend_flip_age_bars"),
+        "supertrend_state_label": last_row.get("supertrend_state_label"),
         "ichimoku_price_above_cloud": last_row.get("ichimoku_price_above_cloud"),
         "ichimoku_kumo_green": last_row.get("ichimoku_kumo_green"),
         "ichimoku_tenkan_above_kijun": last_row.get("ichimoku_tenkan_above_kijun"),
@@ -178,6 +182,7 @@ def run_screeners(
     symbols_load_failed_or_missing: int,
     benchmark_close: pd.Series | None = None,
     symbol_metadata: dict[str, dict] | None = None,
+    enrichment_refresh: bool = False,
 ) -> dict:
     """Execute one screener batch for a universe/interval and write ranked outputs."""
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -194,6 +199,7 @@ def run_screeners(
     combined_rows: list[dict] = []
     alphatrend_truth_rows: list[dict] = []
     pending_rows: list[dict] = []
+    universe_rank_rows: list[dict] = []
 
     required_cols = ["date", "open", "high", "low", "close", "volume", "ema_20", "ema_50", "ema_200"]
 
@@ -218,7 +224,21 @@ def run_screeners(
 
         passed_liquidity += 1
         row = last_row.copy()
-        row["peer_group"] = (symbol_metadata or {}).get(symbol, {}).get("peer_group", universe)
+        metadata = dict((symbol_metadata or {}).get(symbol, {}))
+        if metadata:
+            for key, value in metadata.items():
+                row[key] = value
+        row["peer_group"] = metadata.get("peer_group", universe)
+        enrichment = load_market_data_enrichment(
+            symbol=symbol,
+            interval=interval,
+            universe=universe,
+            config=config,
+            force_refresh=enrichment_refresh,
+        )
+        if enrichment:
+            for key, value in enrichment.items():
+                row[key] = value
         pending_rows.append({"symbol": symbol, "row": row})
 
     def _percentile_rank_desc(series: pd.Series) -> pd.Series:
@@ -260,6 +280,8 @@ def run_screeners(
         rank_info = rank_map.get(symbol, {})
         for key in ("roc_63_rank_pct", "beta_adjusted_return_rank_pct", "peer_group_rank_pct"):
             last_row[key] = rank_info.get(key)
+
+        universe_rank_rows.append(build_universe_rank_row(symbol=symbol, universe=universe, interval=interval, last_row=last_row))
 
         alphatrend_truth_rows.append(
             build_alphatrend_truth_row(
@@ -322,6 +344,18 @@ def run_screeners(
         write_dataframe(combined_df, combined_csv)
         logging.info("Wrote CSV: %s", combined_csv)
 
+    universe_rank_df = pd.DataFrame(universe_rank_rows)
+    if not universe_rank_df.empty:
+        universe_rank_df = rank_descending(universe_rank_df, score_col="score")
+        universe_rank_csv = output_dir / f"{universe}_{interval}_universe_rank_{timestamp}.csv"
+        write_dataframe(universe_rank_df, universe_rank_csv)
+        logging.info("Wrote CSV: %s", universe_rank_csv)
+
+        top10_df = universe_rank_df.head(10).copy()
+        top10_csv = output_dir / f"{universe}_{interval}_top10_{timestamp}.csv"
+        write_dataframe(top10_df, top10_csv)
+        logging.info("Wrote CSV: %s", top10_csv)
+
     alphatrend_truth_df = pd.DataFrame(alphatrend_truth_rows)
     if not alphatrend_truth_df.empty:
         alphatrend_truth_df = alphatrend_truth_df.sort_values(
@@ -344,6 +378,25 @@ def run_screeners(
         "alphatrend_truth_rows": len(alphatrend_truth_rows),
         "eligible_counts": eligible_counts,
         "top_symbols": top_symbols,
+        "universe_rank_rows": len(universe_rank_df),
+        "universe_rank_top10": universe_rank_df.head(10)["symbol"].tolist() if not universe_rank_df.empty else [],
+        "universe_rank_top10_rows": (
+            universe_rank_df.head(10)[
+                [
+                    "symbol",
+                    "score",
+                    "technical_score",
+                    "fresh_flip_score",
+                    "fundamental_score",
+                    "sentiment_score",
+                    "external_score",
+                    "fresh_flip_signals",
+                ]
+            ].to_dict(orient="records")
+            if not universe_rank_df.empty
+            else []
+        ),
+        "enrichment_refresh": enrichment_refresh,
     }
 
     if write_summary_json:

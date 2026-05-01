@@ -199,6 +199,10 @@ def build_features(
     out["supertrend_line"] = st_line
     out["supertrend_trend"] = st_trend
     out["supertrend_bullish"] = out["supertrend_trend"] == 1.0
+    out["supertrend_prev_trend"] = out["supertrend_trend"].shift(1)
+    out["supertrend_flip_flag"] = out["supertrend_prev_trend"].notna() & (out["supertrend_trend"] != out["supertrend_prev_trend"])
+    out["supertrend_flip_age_bars"] = _bars_since_event(out["supertrend_flip_flag"])
+    out["supertrend_state_label"] = np.where(out["supertrend_trend"] == 1.0, "BUY", "SELL")
 
     ichi = ichimoku(out["high"], out["low"], out["close"])
     for key, value in ichi.items():
